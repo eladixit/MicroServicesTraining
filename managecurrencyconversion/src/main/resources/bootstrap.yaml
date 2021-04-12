@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: traveler
+  config:
+    name: config-server
+    uri: http://localhost:${config.port:8888}

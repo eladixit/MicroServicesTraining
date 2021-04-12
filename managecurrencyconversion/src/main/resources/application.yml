@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: managecurrencyconversion
+ # datasource:
+ #    url: jdbc:h2:mem:managecurrencyconversion
+   #  username: sa
+    # password: password
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   
+   
